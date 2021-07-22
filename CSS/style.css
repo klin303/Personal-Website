@@ -1,3 +1,12 @@
-body{
-    
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;500&display=swap');
+
+header{
+    background: #b9bbc5;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.mobile-menu{
+    width: 40px;
+    height: 40px;
 }
