@@ -1,12 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;500&display=swap');
-
-header{
-    background: #b9bbc5;
-    margin: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;500&display=swap");
+:root {
+  --primary-color: #c8d8e4;
+  --secondary-color: #f2f2f2;
+  --accent-color: #2b6777;
+  --thin-font: 100;
+  --norm-font: 300;
+  --bold-font: 500
+;
 }
 
-.mobile-menu{
-    width: 40px;
-    height: 40px;
+header, body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: var(--primary-color);
 }
+
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.navbar .nametag {
+  text-decoration: none;
+  font-weight: var(--bold-font);
+  color: black;
+  font-size: 1.9em;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em, 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .container {
+  width: auto;
+  height: auto;
+}
+
+.round-profile {
+  padding: 5em;
+}
+
+.round-profile .container img {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
