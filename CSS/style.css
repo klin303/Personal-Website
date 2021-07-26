@@ -18,6 +18,9 @@ header, body {
 .navbar {
   background: white;
   padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 95%;
 }
 
 .navbar .nametag {
@@ -62,11 +65,24 @@ section {
 }
 
 .round-profile {
-  padding: 5em;
+  padding: 8em 5em 2em;
 }
 
-.round-profile .container img {
+.round-profile img {
   width: 100%;
   height: auto;
+  border-radius: 50%;
+}
+
+.about-blurb h1 {
+  font-size: 2em;
+  font-weight: var(--bold-font);
+}
+
+.about-blurb h2 {
+  margin: 0.2em;
+  font-size: 1.5em;
+  font-weight: var(--thin-font);
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
